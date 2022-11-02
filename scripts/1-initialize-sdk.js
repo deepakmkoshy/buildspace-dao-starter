@@ -38,4 +38,4 @@ if (!process.env.PRIVATE_KEY || process.env.PRIVATE_KEY === "") {
   })()
 
   // We are exporting the initialized thirdweb SDK so that we can use it in our other scripts
-  export default sdk
+  export default sdk;
